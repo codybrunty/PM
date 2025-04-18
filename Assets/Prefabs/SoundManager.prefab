@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1104381457519342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4839302749966142}
+  - component: {fileID: 114258695678947432}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4839302749966142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104381457519342}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114258695678947432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104381457519342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c231b50f1be354ea66ace97c266ea4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: grassSFX1
+    clip: {fileID: 8300000, guid: 985ee8e957e00434bbf22a4c3f92a38a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: selectSFX1
+    clip: {fileID: 8300000, guid: 0703cee9123fc1f4b94988094077b781, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: grassSFX2
+    clip: {fileID: 8300000, guid: 4e697b14dc45168499ec7dcc127f204f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: neg1
+    clip: {fileID: 8300000, guid: 918f1fa363b21f948ab2a7ea4144ea65, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: winSFX
+    clip: {fileID: 8300000, guid: 5761971394be69445bf048e6e04e106f, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: coinSFX
+    clip: {fileID: 8300000, guid: b93fded14164bc349b369b79d975fa78, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Music1
+    clip: {fileID: 8300000, guid: 315830b2cb41dca48b09977313418d05, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Music2
+    clip: {fileID: 8300000, guid: 682584a82845dd644b6dbdf0f07490d2, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: WheelClick1
+    clip: {fileID: 8300000, guid: b29d1870d10f26343b6226857bd28e84, type: 3}
+    volume: 0.39
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WheelClick2
+    clip: {fileID: 8300000, guid: b29d1870d10f26343b6226857bd28e84, type: 3}
+    volume: 0.15
+    pitch: 1.1
+    loop: 0
+    source: {fileID: 0}
+  - name: Bell
+    clip: {fileID: 8300000, guid: b434491495658c44da32e89e78a98aa9, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FlowerCompletedBeg
+    clip: {fileID: 8300000, guid: 49ef7bd5392401c4f870458e7a4e3985, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FlowerCompleted
+    clip: {fileID: 8300000, guid: 98a1dd563fd7ae84fb03dcdd44b0fc40, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PetalFound
+    clip: {fileID: 8300000, guid: 935f32a22f7dd8e48841dd4831ca0ced, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MechanicalAdButton
+    clip: {fileID: 8300000, guid: c7a5585bf2a56e142a2a62edb1bfc90b, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WoodSFX1
+    clip: {fileID: 8300000, guid: 6426c58bebe983348af6676a90e8b80f, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WoodSFX2
+    clip: {fileID: 8300000, guid: 711a18389d39451408477421d472ada1, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SecretFound
+    clip: {fileID: 8300000, guid: 43e8d9089f5a1d340b2304f21f057b09, type: 3}
+    volume: 0.359
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Sign
+    clip: {fileID: 8300000, guid: 624f115edda42d64693e62c0a8f9ea1b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Alert
+    clip: {fileID: 8300000, guid: d5012f04dda5ca4418965e3cba5aa700, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  currentMusicTrack: 0

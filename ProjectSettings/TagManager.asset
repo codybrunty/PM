@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GameBoard_Square
+  - Expand_Button
+  - Effects
+  - ScrollArea
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Square
+  - Button
+  - effects
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BG
+    uniqueID: 2018674777
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: GameBoard
+    uniqueID: 3173950141
+    locked: 0
+  - name: GameBoard_Art_Level_1
+    uniqueID: 1623066457
+    locked: 0
+  - name: GameBoard_Art_Level_2
+    uniqueID: 1925320801
+    locked: 0
+  - name: Results
+    uniqueID: 80659975
+    locked: 0
+  - name: Effects
+    uniqueID: 3176352853
+    locked: 0
+  - name: GameBoard_Art_Level_3
+    uniqueID: 799222739
+    locked: 0
+  - name: PopUpWindows
+    uniqueID: 1056214799
+    locked: 0
+  - name: OverPopups
+    uniqueID: 2438487875
+    locked: 0
